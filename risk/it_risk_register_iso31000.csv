@@ -1,0 +1,4 @@
+Risk_ID,Asset_Category,Threat_Vulnerability,Inherent_Risk,Mitigation_Control,Residual_Risk,Owner,Monitoring_Frequency
+RSK-001,Payment Switch,Unauthorized RIPPS/RNDPS switch transaction injection via API,High (16),Enforce mTLS + HSM payload signing + anomalous velocity limits,Low (4),Senior Manager CyberSec,Real-Time (SOC)
+RSK-002,CBS Database,Direct SQL balance alteration by privileged user,Critical (20),LogRhythm DB auditing + PAM session recording + dual authorization,Medium (6),Senior Manager CyberSec,Daily Audit
+RSK-003,District SACCO Endpoint,Ransomware propagation across branch WAN/VPN,High (15),CrowdStrike Falcon EDR + microsegmentation + automated isolation,Low (3),SOC Lead,Continuous
